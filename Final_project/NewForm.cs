@@ -34,7 +34,6 @@ namespace Final_project
         {
             lblUserName.Text = $"User : {CurentUser.UserName}";
             lblRoleName.Text = $"Role : {CurentUser.RoleName}";
-
             if (CurentUser.RoleName != "admin")
             {
                 modiriat.Enabled = false;
@@ -42,9 +41,10 @@ namespace Final_project
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void لیستکالاهاToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Products products = new Products();
+            products.Show();
         }
     }
 }

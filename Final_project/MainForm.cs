@@ -22,7 +22,7 @@ namespace Final_project
             using (MyDbContext db = new MyDbContext())
             {
                 var user = db.Users.FirstOrDefault(x => x.Name == txtName.Text.Trim() && x.Password == txtPassword.Text);
-            NewForm newForm = new NewForm();
+                NewForm newForm = new NewForm();
                 if (user != null)
                 {
                     CurentUser.RoleName = user.RoleName;
@@ -30,22 +30,19 @@ namespace Final_project
                     switch (user.RoleName)
                     {
                         case "admin":
-                        newForm.Show();
+
+                            newForm.Show();
 
                             break;
                         case "user":
-                        newForm.Show();
+                            newForm.Show();
                             break;
-
                         default:
-                            MessageBox.Show("ورود نا معتبر","خطا");
+                            MessageBox.Show("ورود نا معتبر", "خطا");
                             break;
                     }
-                }                
+                }
             }
-
         }
-
-
     }
 }

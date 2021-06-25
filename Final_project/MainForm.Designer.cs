@@ -38,9 +38,9 @@ namespace Final_project
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(220, 173);
+            this.button1.Location = new System.Drawing.Point(183, 125);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 54);
+            this.button1.Size = new System.Drawing.Size(184, 74);
             this.button1.TabIndex = 0;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
@@ -82,13 +82,14 @@ namespace Final_project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 256);
+            this.ClientSize = new System.Drawing.Size(587, 245);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.button1);
             this.Name = "mainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Form";
             this.ResumeLayout(false);
             this.PerformLayout();
