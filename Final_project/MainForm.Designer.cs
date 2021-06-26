@@ -38,25 +38,25 @@ namespace Final_project
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(183, 125);
+            this.button1.Location = new System.Drawing.Point(41, 75);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(184, 74);
-            this.button1.TabIndex = 0;
+            this.button1.Size = new System.Drawing.Size(98, 36);
+            this.button1.TabIndex = 3;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(115, 29);
+            this.txtName.Location = new System.Drawing.Point(20, 14);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(316, 20);
+            this.txtName.Size = new System.Drawing.Size(134, 20);
             this.txtName.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(448, 32);
+            this.label1.Location = new System.Drawing.Point(171, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;
@@ -64,15 +64,15 @@ namespace Final_project
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(115, 64);
+            this.txtPassword.Location = new System.Drawing.Point(20, 49);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(316, 20);
-            this.txtPassword.TabIndex = 1;
+            this.txtPassword.Size = new System.Drawing.Size(134, 20);
+            this.txtPassword.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(448, 67);
+            this.label2.Location = new System.Drawing.Point(171, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 2;
@@ -82,7 +82,7 @@ namespace Final_project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 245);
+            this.ClientSize = new System.Drawing.Size(225, 125);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPassword);

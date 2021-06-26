@@ -31,6 +31,7 @@ namespace Final_project
                     {
                         case "admin":
 
+                            this.Hide();
                             newForm.Show();
 
                             break;
